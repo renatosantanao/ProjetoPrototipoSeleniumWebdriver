@@ -59,7 +59,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Base\BasePage.cs" />
+    <Compile Include="Page\PaginaPrincipal.cs" />
+    <Compile Include="Testes\BuscaProduto.cs" />
+    <Compile Include="Testes\PontaPeInicial.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
